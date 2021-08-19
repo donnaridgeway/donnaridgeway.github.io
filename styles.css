@@ -12,4 +12,4 @@ body {
     clip: rect(1px, 1px, 1px, 1px);
 }
 
-.header {font-family: 'Style Script', cursive;}
+.header-text {font-family: 'Style Script', cursive;font-size: 50px;text-align: center;}
