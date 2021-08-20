@@ -3,6 +3,10 @@ body {
     background: #82b7bb;
 }
 
+p {font-family: 'Manrope', sans-serif;}
+
+h1, h2, h3 {font-family: 'Manrope', sans-serif;}
+
 .hidden {
     position: absolute !important;
     height: 1px;
@@ -13,3 +17,40 @@ body {
 }
 
 .header-text {font-family: 'Style Script', cursive;font-size: 50px;text-align: center;}
+
+/* =================================================================
+ * Banner
+ * ================================================================= */
+ .banner {
+    background: #000;
+    color: #fff;
+    margin: 0 0 2em;
+    padding: 2% 1em;
+    position: relative;
+    outline: none;
+}
+    .banner h1 {
+        font-size: 2em;
+        line-height: 1;
+        margin: 0;
+    }
+    .banner a {
+        border-bottom: 0;
+        color: #fff;
+        text-decoration: none;
+    }
+.banner--home {
+    text-align: center;
+    padding: 7% 0 5%;
+}
+    .banner--home h1 {
+        font-size: 8vw; /* if supported, scale with the screen */
+        padding-top: 2%;
+    }
+    .banner--home img {
+        display: inline;
+        width: 50%;
+        max-width: 400px;
+        height: auto;
+    }
+
