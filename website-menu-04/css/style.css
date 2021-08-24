@@ -37,6 +37,17 @@ a {
   a, a:hover {
     text-decoration: none !important; }
 
+  .hidden {
+      position: absolute !important;
+      height: 1px;
+      width: 1px;
+      overflow: hidden;
+      clip: rect(1px 1px 1px 1px); /* IE6 and IE7 use the wrong syntax */
+      clip: rect(1px, 1px, 1px, 1px);
+  }
+
+.header-text {font-family: 'Manrope', sans-serif;}
+
 .hero {
   height: 100vh;
   width: 100%;
